@@ -1,0 +1,207 @@
+@media only screen and (max-device-width: 480px) {
+    .cont{
+        max-width: 550px;
+        max-height: 550px;
+    }
+    .cont2{
+        max-width: 450px;
+    }
+    .card-img-overlay{
+        position:absolute;
+        top:30px;
+        
+    }
+    .h4{
+        font-size: 15px;
+
+    }
+    .p{
+        font-size: 12px;
+    }
+    .bt{
+        font-size: 10px;
+        width: 80px;
+        height: 30px;
+    }
+    .h3{
+        margin-top:20px;
+    }
+    .backimg{
+        height: 180px;
+    }
+    .h1{
+        font-size: 10px;
+    }
+    #p{
+        font-size: 7px;
+    }
+    .deal{
+        max-width: 170px;
+    }
+    .dealbtn{
+        width: 60px;
+        height: 25px;
+        font-size: 7px;
+    }
+    .subs{
+        max-width: 210px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .sb{
+        width:60px;
+        height: 20px;
+        font-size: 10px;
+    }
+    .email{
+        font-size: 13px;
+    }
+    .for{
+        font-size: 13px;
+    }
+    .c1{
+        width: 30px;
+        height: 10px;
+        margin-left: -2px;
+        margin-right: -2px;
+    }
+    .card-footer{
+        background-color: rgb(14, 14, 71);
+        color: white;
+        font-size: 5px;
+    }
+    .x{
+        display: none;
+    }
+
+}
+@media only screen and (min-device-width: 480px){
+    .img{
+        height: 250px;
+    }
+    .overlay{
+        position:absolute;
+        top:55px;
+        
+    }
+    .offer{
+        position: relative;
+        bottom: 150px;
+    }
+    
+    .s1{
+        max-width: 200px;
+    }
+    .deal{
+        max-width: 500px;
+        position: absolute;
+        top:20px;
+        left: 70px;
+        }
+    .subs{
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            flex-direction: column;
+        }
+        .quality{
+            width:100px;
+        }
+        .lebel{
+            font-size: 18px;
+        }
+        .c1{
+            width: 80px;
+            height: 60px;
+            margin-left: -2px;
+            margin-right: -2px;
+        }
+    }
+    
+    
+
+
+.cont{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.h3{
+    text-align: center;
+}
+span{
+    color: green;
+}
+.card-title{
+    text-align: center;
+}
+.off{
+    color: gray;
+}
+/* .strike{
+    font-size: 18px;
+    font-weight: 300;
+    text-decoration: line-through;
+    color: gray;
+} */
+.badge{
+    font-weight: 400;
+    color:rgb(129, 210, 129);
+    background-color: rgb(210, 245, 210);
+}
+/* .price{
+    font-size: 19px;
+    font-weight: 500;
+    margin-right: 10px;
+} */
+.address{
+    height: 100px;
+}
+.sb{
+    background-color: green;
+    color: white;
+    border: 0;
+}
+.fa-xl{
+    color: green;
+    margin-right: 2px;
+}
+.price{
+    font-size: 18px;
+}
+.fa-star{
+    font-size: 18px;
+    color: gold;
+}
+.strike{
+    text-decoration: line-through;
+    margin-left: 5px;
+    color: gray;
+    font-size: 15px;
+    margin-top:3px
+}
+.btn{
+    background-color: rgb(7, 172, 7);
+}
+.input{
+    width:47px;
+    height: 25px;
+    font-size: 18px;
+}
+.fa-basket-shopping{
+    color: rgb(17, 190, 17);
+}
+.head{
+    font-size: 23px;
+}
+h1{
+    color:rgb(14, 14, 71);
+}
+.card-footer{
+    background-color: rgb(14, 14, 71);
+    color: white;
+    font-size: 10px;
+}
