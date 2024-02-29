@@ -70,10 +70,13 @@
     .card-footer{
         background-color: rgb(14, 14, 71);
         color: white;
-        font-size: 5px;
+        padding: 0px;
     }
-    .x{
-        display: none;
+    .h1{
+        width: 3rem;
+    }
+    .cb{
+        padding: 10px;
     }
 
 }
@@ -117,6 +120,12 @@
             height: 60px;
             margin-left: -2px;
             margin-right: -2px;
+        }
+        .h1{
+            width: 5rem;
+        }
+        .cb{
+            height: 55px;
         }
     }
     
@@ -200,8 +209,25 @@ span{
 h1{
     color:rgb(14, 14, 71);
 }
+
+.bgimage {
+    background-image: url('deal-bg.jpg'); /* Replace 'your-image.jpg' with your image file */
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+}
+
+
+@media (max-width: 768px) {
+    .content {
+        font-size: 14px; /* Adjust font size for smaller screens */
+    }
+}
 .card-footer{
-    background-color: rgb(14, 14, 71);
-    color: white;
-    font-size: 10px;
+background-color:rgb(14, 14, 71);
+color: white;
+font-size: 15px;
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+
 }
